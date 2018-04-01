@@ -1,0 +1,77 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.col-lg-3.col-md-6.mb-4 {
+	margin-left: 410px;
+}
+
+.col-lg-3.col-md-6.mb-4 h4 {
+	font-size: 135%;
+}
+
+.card {
+  height: 100%;
+}
+
+#my_audio {
+  position: fixed;
+  right: -0;
+  top: 90%;
+  width: 8em;
+  float: right;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+	z-index: -1;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#alwaysVisible {
+  position: fixed;
+  right: -5;
+  width: 8em;
+  z-index: 1;
+}
+
+div {
+	width: 300px;
+}
+
+#pageContent {
+    bottom: 0;
+    position: fixed;
+    z-index: 150;
+    _position: absolute;
+    _top: expression(eval(document.documentElement.scrollTop+
+        (document.documentElement.clientHeight-this.offsetHeight)));
+    height: 35px;
+	right: -0;
+}
